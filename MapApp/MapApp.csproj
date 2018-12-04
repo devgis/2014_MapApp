@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ED70D7A-A947-4D4F-835B-3460352B080F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MapApp</RootNamespace>
+    <AssemblyName>MapApp</AssemblyName>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="MapInfo.CoreEngine, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CoreEngine.Wrapper, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CoreTypes, Version=6.8.0.536, Culture=neutral, PublicKeyToken=f548bcba69d4b8da">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CommonDialogExt, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Windows, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Windows.Dialogs, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Wms.Client, Version=6.8.0.536, Culture=neutral, PublicKeyToken=4ac3224575145b20">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\JKINFOBLL.cs" />
+    <Compile Include="DAL\JKINFODAL.cs" />
+    <Compile Include="InputPassWDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputPassWDForm.Designer.cs">
+      <DependentUpon>InputPassWDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JKINFO\AddJKINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JKINFO\AddJKINFO.Designer.cs">
+      <DependentUpon>AddJKINFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JKINFO\EditJKINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JKINFO\EditJKINFO.Designer.cs">
+      <DependentUpon>EditJKINFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JKINFO\JKINFOList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JKINFO\JKINFOList.Designer.cs">
+      <DependentUpon>JKINFOList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JKINFO\ViewJKINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JKINFO\ViewJKINFO.Designer.cs">
+      <DependentUpon>ViewJKINFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMap.Designer.cs">
+      <DependentUpon>MainMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDBHelp.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="InputPassWDForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InputPassWDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JKINFO\AddJKINFO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddJKINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JKINFO\EditJKINFO.resx">
+      <DependentUpon>EditJKINFO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JKINFO\JKINFOList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>JKINFOList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JKINFO\ViewJKINFO.resx">
+      <DependentUpon>ViewJKINFO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SysInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapApp.Common\MapApp.Common.csproj">
+      <Project>{4879F36D-1C8D-4AE6-81CC-DEACB69A9EFC}</Project>
+      <Name>MapApp.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MapApp.Entities\MapApp.Entities.csproj">
+      <Project>{3C4E3D83-E67F-45D5-8DF5-7579A8F2A513}</Project>
+      <Name>MapApp.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

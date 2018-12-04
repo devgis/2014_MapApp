@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<WorkSpace name="" version="MXP_WorkSpace_1_0" date="2013-05-25T13:48:36.0000000+08:00" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.mapinfo.com/mxp">
+  <ConnectionSet />
+  <DataSourceDefinitionSet>
+    <TABFileDataSourceDefinition id="id1" readOnly="false">
+      <DataSourceName>JKINFO</DataSourceName>
+      <FileName>JKINFO.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id2" readOnly="false">
+      <DataSourceName>JXHD_图层2巷道</DataSourceName>
+      <FileName>JXHD_图层2巷道.tab</FileName>
+    </TABFileDataSourceDefinition>
+  </DataSourceDefinitionSet>
+  <MapDefinitionSet>
+    <MapDefinition id="id3" name="Map1" alias="Map1">
+      <DisplayConditions>
+        <MapSize uom="mapinfo:imagesize pixel">
+          <ImageWidth>501</ImageWidth>
+          <ImageHeight>459</ImageHeight>
+        </MapSize>
+        <ZoomAndCenter>
+          <MapZoom uom="mapinfo:length m">20880.737324</MapZoom>
+          <gml:Point srsName="mapinfo:coordsys 0,7">
+            <gml:coordinates>6221.6828109341941,4107.9056295043392</gml:coordinates>
+          </gml:Point>
+        </ZoomAndCenter>
+        <DisplayCoordSys>
+          <SRSName>mapinfo:coordsys 0,7</SRSName>
+        </DisplayCoordSys>
+        <ResizeMethod>preserveZoom</ResizeMethod>
+        <RasterConditions dither="halfTone" trueColor="true" optimizeRasterLayers="screen" optimizeVectorLayers="screen" />
+      </DisplayConditions>
+      <LayerList>
+        <LabelLayer id="id4" name="标记" alias="Layer1" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length m" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <LabelSourceList>
+            <LabelSource maxLabels="2147483647" name="JKINFO">
+              <DataSourceRef ref="id1" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(72,183,72)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <MapinfoStringExpression>SJ + DW</MapinfoStringExpression>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>bottom</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelAngle uom="degrees" origin="referencePoint">0</LabelAngle>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+          </LabelSourceList>
+        </LabelLayer>
+        <FeatureLayer id="id5" name="JKINFO" alias="JKINFO" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length m" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id1" />
+        </FeatureLayer>
+        <FeatureLayer id="id6" name="JXHD_图层2巷道" alias="JXHD_图层2巷道" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id2" />
+        </FeatureLayer>
+      </LayerList>
+      <MapLegendSet />
+    </MapDefinition>
+  </MapDefinitionSet>
+  <MapinfoApplicationData>
+    <MapXtremeWindows>
+      <MapToolsSet>
+        <MapTools ref="id3">
+          <BaseMapToolProperties>
+            <MapToolProperties>
+              <InfotipProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.InfoTipLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="drillDown grid vector raster seamless wms" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id5 id6" />
+                  <LayerExclude refs="id4" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+                <InfotipExpressionSet>
+                  <InfotipExpression ref="id5">
+                    <StringValueExpression>
+                      <MapinfoStringExpression>ADDR</MapinfoStringExpression>
+                    </StringValueExpression>
+                  </InfotipExpression>
+                </InfotipExpressionSet>
+              </InfotipProperties>
+              <SnapToNodeProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.SnapLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="vector" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id5 id6" />
+                  <LayerExclude refs="id4" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </SnapToNodeProperties>
+            </MapToolProperties>
+          </BaseMapToolProperties>
+          <BaseInsertionToolProperties>
+            <InsertionToolProperties>
+              <MapToolFilter name="MapInfo.Tools.MapToolsDefault.InsertionLayers">
+                <MapToolInitialFilter>
+                  <MapLayerVisibilityFilter useVisible="false" useNotVisible="false" />
+                </MapToolInitialFilter>
+                <LayerExclude refs="id4 id5 id6" />
+                <MapToolFinalFilter>
+                  <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                </MapToolFinalFilter>
+              </MapToolFilter>
+            </InsertionToolProperties>
+          </BaseInsertionToolProperties>
+          <BaseSelectionToolProperties>
+            <SelectionToolProperties>
+              <SelectionProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.SelectLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="vector" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id5 id6" />
+                  <LayerExclude refs="id4" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </SelectionProperties>
+              <EditingProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.EditLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerVisibilityFilter useVisible="false" useNotVisible="false" />
+                  </MapToolInitialFilter>
+                  <LayerExclude refs="id4 id5 id6" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </EditingProperties>
+            </SelectionToolProperties>
+          </BaseSelectionToolProperties>
+        </MapTools>
+      </MapToolsSet>
+    </MapXtremeWindows>
+  </MapinfoApplicationData>
+</WorkSpace>

@@ -1,0 +1,5 @@
+D:\MapApp\MapApp.Common\bin\Debug\MapApp.Common.dll
+D:\MapApp\MapApp.Common\bin\Debug\MapApp.Common.pdb
+D:\MapApp\MapApp.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\MapApp\MapApp.Common\obj\Debug\MapApp.Common.dll
+D:\MapApp\MapApp.Common\obj\Debug\MapApp.Common.pdb

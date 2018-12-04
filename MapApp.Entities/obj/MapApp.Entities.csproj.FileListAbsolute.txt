@@ -1,0 +1,10 @@
+C:\WORK\江苏模拟图\MapApp\MapApp.Entities\bin\Debug\MapApp.Entities.dll
+C:\WORK\江苏模拟图\MapApp\MapApp.Entities\bin\Debug\MapApp.Entities.pdb
+C:\WORK\江苏模拟图\MapApp\MapApp.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\WORK\江苏模拟图\MapApp\MapApp.Entities\obj\Debug\MapApp.Entities.dll
+C:\WORK\江苏模拟图\MapApp\MapApp.Entities\obj\Debug\MapApp.Entities.pdb
+E:\WORK\tb模拟图\MapApp\MapApp.Entities\bin\Debug\MapApp.Entities.dll
+E:\WORK\tb模拟图\MapApp\MapApp.Entities\bin\Debug\MapApp.Entities.pdb
+E:\WORK\tb模拟图\MapApp\MapApp.Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\tb模拟图\MapApp\MapApp.Entities\obj\Debug\MapApp.Entities.dll
+E:\WORK\tb模拟图\MapApp\MapApp.Entities\obj\Debug\MapApp.Entities.pdb

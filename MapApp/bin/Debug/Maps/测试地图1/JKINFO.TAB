@@ -1,0 +1,17 @@
+!table
+!version 410
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 10
+    FZH Integer ;
+    DKH Integer ;
+    NDH Integer ;
+    SBLX Integer ;
+    DW Char (10) ;
+    ADDR Char (20) ;
+    SJ Char (10) ;
+    ZT Integer ;
+    BJZ Float ;
+    DDZ Float ;

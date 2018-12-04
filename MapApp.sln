@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapApp", "MapApp\MapApp.csproj", "{4ED70D7A-A947-4D4F-835B-3460352B080F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapApp.Common", "MapApp.Common\MapApp.Common.csproj", "{4879F36D-1C8D-4AE6-81CC-DEACB69A9EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassWordTool", "PassWordTool\PassWordTool.csproj", "{E9B640DD-B777-4A04-A4B6-6008A697E142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapApp.Entities", "MapApp.Entities\MapApp.Entities.csproj", "{3C4E3D83-E67F-45D5-8DF5-7579A8F2A513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED70D7A-A947-4D4F-835B-3460352B080F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED70D7A-A947-4D4F-835B-3460352B080F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED70D7A-A947-4D4F-835B-3460352B080F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED70D7A-A947-4D4F-835B-3460352B080F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4879F36D-1C8D-4AE6-81CC-DEACB69A9EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4879F36D-1C8D-4AE6-81CC-DEACB69A9EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4879F36D-1C8D-4AE6-81CC-DEACB69A9EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4879F36D-1C8D-4AE6-81CC-DEACB69A9EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B640DD-B777-4A04-A4B6-6008A697E142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B640DD-B777-4A04-A4B6-6008A697E142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B640DD-B777-4A04-A4B6-6008A697E142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B640DD-B777-4A04-A4B6-6008A697E142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4E3D83-E67F-45D5-8DF5-7579A8F2A513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4E3D83-E67F-45D5-8DF5-7579A8F2A513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4E3D83-E67F-45D5-8DF5-7579A8F2A513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4E3D83-E67F-45D5-8DF5-7579A8F2A513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

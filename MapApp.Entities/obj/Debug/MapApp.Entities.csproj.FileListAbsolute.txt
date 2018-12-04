@@ -1,0 +1,5 @@
+D:\MapApp\MapApp.Entities\bin\Debug\MapApp.Entities.dll
+D:\MapApp\MapApp.Entities\bin\Debug\MapApp.Entities.pdb
+D:\MapApp\MapApp.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\MapApp\MapApp.Entities\obj\Debug\MapApp.Entities.dll
+D:\MapApp\MapApp.Entities\obj\Debug\MapApp.Entities.pdb

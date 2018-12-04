@@ -1,0 +1,15 @@
+C:\WORK\MapApp\MapApp.Common\bin\Debug\MapApp.Common.dll
+C:\WORK\MapApp\MapApp.Common\bin\Debug\MapApp.Common.pdb
+C:\WORK\MapApp\MapApp.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\WORK\MapApp\MapApp.Common\obj\Debug\MapApp.Common.dll
+C:\WORK\MapApp\MapApp.Common\obj\Debug\MapApp.Common.pdb
+C:\WORK\江苏模拟图\MapApp\MapApp.Common\bin\Debug\MapApp.Common.dll
+C:\WORK\江苏模拟图\MapApp\MapApp.Common\bin\Debug\MapApp.Common.pdb
+C:\WORK\江苏模拟图\MapApp\MapApp.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\WORK\江苏模拟图\MapApp\MapApp.Common\obj\Debug\MapApp.Common.dll
+C:\WORK\江苏模拟图\MapApp\MapApp.Common\obj\Debug\MapApp.Common.pdb
+E:\WORK\tb模拟图\MapApp\MapApp.Common\bin\Debug\MapApp.Common.dll
+E:\WORK\tb模拟图\MapApp\MapApp.Common\bin\Debug\MapApp.Common.pdb
+E:\WORK\tb模拟图\MapApp\MapApp.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\tb模拟图\MapApp\MapApp.Common\obj\Debug\MapApp.Common.dll
+E:\WORK\tb模拟图\MapApp\MapApp.Common\obj\Debug\MapApp.Common.pdb
